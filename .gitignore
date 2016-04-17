@@ -1,0 +1,13 @@
+*.dll
+*.exe
+*.pdb
+*.g.i.cs
+*.g.cs
+*.g.*
+*.cache
+*.suo
+*.baml
+obj/
+bin/
+
+

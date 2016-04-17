@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="StockTraderRI.Modules.Watch.AddWatch.AddWatchView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Infrastructure="clr-namespace:StockTraderRI.Infrastructure;assembly=StockTraderRI.Infrastructure">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="AddWatchTextBox" MinWidth="100"  
+                     Command="{Binding Path=AddWatchCommand}" 
+                     Content="Import" 
+                     AutomationProperties.AutomationId="TextBoxBlock" Margin="5,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
